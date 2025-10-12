@@ -57,7 +57,7 @@ A full-featured **Contact Manager** application built with **Spring Boot**, **Sp
   <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" width="50" height="50"/>
   <img src="https://img.icons8.com/color/48/000000/hibernate.png" alt="Hibernate" width="50" height="50"/>
   <img src="https://img.icons8.com/color/48/000000/amazon-s3.png" alt="AWS S3" width="50" height="50"/>
-  <img src="https://www.streamlinehq.com/icons/download/maven--31103" alt="Maven" width="50" height="50"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/2560px-Apache_Maven_logo.svg.png" alt="Maven" width="50" height="50"/>
   <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="50" height="50"/>
   <img src="https://img.icons8.com/color/48/000000/stripe.png" alt="Stripe" width="50" height="50"/>
 </p>
@@ -69,7 +69,7 @@ A full-featured **Contact Manager** application built with **Spring Boot**, **Sp
 ### Prerequisites
 
 - **Java 17+** ![Java](https://img.icons8.com/color/24/000000/java-coffee-cup-logo.png)  
-- **Maven 3+** ![Maven](https://www.streamlinehq.com/icons/download/maven--31103)  
+- **Maven 3+** ![Maven](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/2560px-Apache_Maven_logo.svg.png)  
 - **MySQL database** ![MySQL](https://img.icons8.com/color/24/000000/mysql-logo.png)  
 - **Docker (optional)** ![Docker](https://img.icons8.com/color/24/000000/docker.png)  
 
@@ -78,5 +78,6 @@ A full-featured **Contact Manager** application built with **Spring Boot**, **Sp
 ```bash
 git clone https://github.com/Pj238icode/SpringBoot-.git
 cd SpringBoot-/Smart_Contact_Manager
+
 
 
