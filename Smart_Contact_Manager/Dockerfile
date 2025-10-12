@@ -3,8 +3,8 @@ FROM maven:3.8.8-eclipse-temurin-17 AS build
 WORKDIR /app
 
 # Copy pom.xml and src folder relative to Dockerfile
-COPY pom.xml .
-COPY src ./src
+COPY Smart_Contact_Manager/pom.xml .
+COPY Smart_Contact_Manager/src ./src
 
 # Build the project and skip tests
 RUN mvn clean package -DskipTests
