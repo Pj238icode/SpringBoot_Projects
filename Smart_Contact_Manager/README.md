@@ -9,11 +9,6 @@ A full-featured **Contact Manager** application built with **Spring Boot**, **Sp
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
 - [Getting Started](#getting-started)  
-- [Environment Variables](#environment-variables)  
-- [Running with Docker](#running-with-docker)  
-- [API Endpoints](#api-endpoints)  
-- [Contributing](#contributing)  
-- [License](#license)  
 
 ---
 
@@ -84,3 +79,4 @@ A full-featured **Contact Manager** application built with **Spring Boot**, **Sp
 ```bash
 git clone https://github.com/Pj238icode/SpringBoot-.git
 cd SpringBoot-/Smart_Contact_Manager
+
