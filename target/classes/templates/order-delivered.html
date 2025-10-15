@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <style>
+        .container { font-family: Arial; padding: 20px; }
+        .header { background-color: green; color: white; padding: 10px; text-align:center; }
+        .details { margin-top: 20px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h2>Your Order is Delivered ✅</h2>
+    </div>
+    <p>Hello <span th:text="${customerName}"></span>,</p>
+    <p>Your order <strong>#<span th:text="${orderId}"></span></strong> has been successfully delivered.</p>
+
+    <div class="details">
+        <h3>Order Summary:</h3>
+        <ul>
+            <li th:each="item : ${orderItems}" th:text="${item}"></li>
+        </ul>
+        <p>Total Amount: ₹<span th:text="${totalAmount}"></span></p>
+    </div>
+
+    <p>Thank you for ordering with <strong>FastFood</strong> 🍔<br>
+        We hope to serve you again soon!</p>
+</div>
+</body>
+</html>
